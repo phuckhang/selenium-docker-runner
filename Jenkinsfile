@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("Pull Latest Image'){
+        stage("Pull Latest Image"){
             sh "docker pull phuckhang190/selenium-docker"
         }
         stage("Start Grid"){
